@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title></title>
+  </head>
+  <body>
+    <header>
+
+    <nav>
+        <h1>Algorithm Visualizer</h1>
+
+
+      <div class="isize">
+      <p>size of array:</p>
+      <input type="range" min=20 max=150 value=80 class="input_array_size" id="input_size" />
+      </div>
+
+
+
+
+      <div class="ispeed">
+      <p>speed:</p>
+      <input type="range" min=1 max=5 value=4  class="input_speed" id="input_speed"/>
+      </div>
+      <div class="all_buttons">
+      <button class="new_array btn" id="new_gen">randomize</button>
+      <button class="algo_buttons btn">bubble</button>
+      <button class="algo_buttons btn">selection</button>
+      <button class="algo_buttons btn">insertion</button>
+      <button class="algo_buttons btn">heap</button>
+      <button class="algo_buttons btn">quick</button>
+      <button class="algo_buttons btn">merge</button>
+      </div>
+
+
+
+      </nav>
+      </header>
+      <section>
+        <div class="cont" id="cont">
+
+          </div>
+        </section>
+        <script src="scripts/main.js"></script>
+        <script src="scripts/vis.js"></script>
+        <script src="scripts/bubblesort.js"></script>
+        <script src="scripts/selectionsort.js"></script>
+        <script src="scripts/insertionsort.js"></script>
+        <script src="scripts/heapsort.js"></script>
+        <script src="scripts/quicksort.js"></script>
+        <script src="scripts/mergesort.js"></script>
+
+  </body>
+</html>
